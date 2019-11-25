@@ -12,12 +12,12 @@ OFF = False
 def forward(left_motor, right_motor):
     left_motor.on(50)
     right_motor.on(50)
-    sleep(2)
+    sleep(1)
     left_motor.off()
     right_motor.off()
 
 def right(left_motor, right_motor):
-    left_motor.on(50)
+    left_motor.on(25)
     right_motor.on(0)
     sleep(2)
     left_motor.off()
@@ -25,7 +25,7 @@ def right(left_motor, right_motor):
 
 def left(left_motor, right_motor):
     left_motor.on(0)
-    right_motor.on(50)
+    right_motor.on(25)
     sleep(2)
     left_motor.off()
     right_motor.off()
